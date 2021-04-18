@@ -10,8 +10,8 @@ num = file.numPages
 for idx in range(num):
   page = file.getPage(idx)
   out.addPage(page)
-  
-password = "123456pass"
+
+password = input("Colocar password desejada:")
 
 out.encrypt(password)
 
