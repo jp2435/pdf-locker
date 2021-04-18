@@ -3,7 +3,8 @@ from PyPDF2 import PdfFileWriter, PdfFileReader
 
 out = PdfFileWriter()
 
-file_path = "sample.pdf"
+#file_path = "sample.pdf"
+file_path = input("Coloque o nome do arquivo (Incluido a extensão):")
 file = PdfFileReader(file_path)
 
 num = file.numPages
