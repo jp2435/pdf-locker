@@ -1,4 +1,5 @@
-import PyPDF2 import PdfFileWriter, PdfFileReader
+# pip3 install PyPDF2, on console
+from PyPDF2 import PdfFileWriter, PdfFileReader
 
 out = PdfFileWriter()
 
